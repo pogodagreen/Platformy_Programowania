@@ -31,18 +31,7 @@
           </GridPane.margin>
         </TextField>
         
-        <ComboBox fx:id="combo" onAction="#comboShow" promptText="Charts" visibleRowCount="3" GridPane.columnIndex="0" GridPane.rowIndex="1">
-          <items>
-            <FXCollections fx:factory="observableArrayList">
-              <String fx:value="f(x)=0" />
-              <String fx:value="f(x)=-x^2" />
-              <String fx:value="f(x)=x^2-x+3" />
-            </FXCollections>
-          </items>
-          <GridPane.margin>
-            <Insets left="50.0" />
-          </GridPane.margin>
-        </ComboBox>
+       
 
         
         <Button mnemonicParsing="false" text="Show" onAction="#showChart" GridPane.columnIndex="0" GridPane.rowIndex="2" >
@@ -52,15 +41,7 @@
         </Button>
         
       </children>
-      <columnConstraints>
-        <ColumnConstraints hgrow="SOMETIMES" maxWidth="490.0" minWidth="10.0" prefWidth="460.0" />
-      </columnConstraints>
-      <rowConstraints>
-        <RowConstraints maxHeight="390.0" minHeight="10.0" prefHeight="200.0" vgrow="SOMETIMES" />
-        <RowConstraints maxHeight="120.0" minHeight="0.0" prefHeight="118.0" vgrow="SOMETIMES" />
-        <RowConstraints maxHeight="120.0" minHeight="0.0" prefHeight="118.0" vgrow="SOMETIMES" />
-      </rowConstraints>
-    </GridPane>
+      </GridPane>
   </children>
 </AnchorPane>
 

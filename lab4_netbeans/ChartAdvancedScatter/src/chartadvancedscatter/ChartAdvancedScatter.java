@@ -26,8 +26,9 @@ public class ChartAdvancedScatter extends Application {
         // setup chart
         xAxis.setLabel("X Axis");
         yAxis.setLabel("Y Axis");
-       XYChart.Series<Number, Number> series1 = new XYChart.Series<Number, Number>();
+       
         //a)
+        XYChart.Series<Number, Number> series1 = new XYChart.Series<Number, Number>();
         series1.setName("f(x)=0");
         for (int i=0; i<5; i++) series1.getData().add(new XYChart.Data<Number, Number>(i, 0));
 
