@@ -5,7 +5,19 @@
       <driver-ref>h2.unified</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.h2.Driver</jdbc-driver>
-      <jdbc-url>jdbc:h2:~/test</jdbc-url>
+      <jdbc-url>jdbc:h2:~/test2</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="test2a" uuid="2bbb7be1-e35d-401d-89d1-4ec808977d19">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:~/test2a</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="lab" uuid="6db5fb49-c0e5-4417-8271-2a091c09c01f">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:mem:lab;DB_CLOSE_DELAY=-1</jdbc-url>
     </data-source>
   </component>
 </project>
